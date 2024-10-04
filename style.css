@@ -1,9 +1,21 @@
+/* css reset */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+/* google fonts */
+
+
 /* header section */
+nav{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
 select{
     border: none;
     outline: none;
@@ -24,6 +36,10 @@ select{
 
 
 }
+.left{
+
+    margin-left: 8em;
+}
 .hero-img{
     width: 100%;
     
@@ -36,7 +52,7 @@ select{
     
 }
 .text-white-gray{
-    color:#9a9595;
+    color:#c5c1c1;
 }
 /* section-2 */
 
@@ -57,4 +73,66 @@ h5{
 .line-height{
     line-height: 28px;
     max-height:130px ;
+}
+/* section 3 */
+.section-3-img-box-1{
+    width:1009px ;
+    height:584px ;
+    position: relative;
+    top: 28em;
+    background-image: url("images/Vector-box-img.png");
+
+}
+
+.section-3-img-box-2{
+    width: 478px ;
+    height:662px ;
+    position: relative;
+  bottom: 2em;
+  left: 45em;
+
+   
+}
+.section-3-cnt{
+    margin-left: 12em;
+ padding-top: 7em;
+}
+.section-3-text-p{
+    color: #e2dddd;
+    
+    
+   
+}
+.lineheight{
+    line-height: 35px;
+}
+.section-3-select{
+    margin-top: 8em;
+    
+    background-color: transparent;
+
+    
+}
+.line{
+   
+    width: 444px;
+ 
+    z-index: 1;
+ border-bottom: solid rgb(136, 134, 134) 2px;
+ opacity: .2;
+ position: relative;
+ top: 6em;
+}
+/* footer */
+.footer{
+    height: 304px;
+    background-color: rgba(38, 54, 64, 1);
+    margin-top: 25em;
+   
+.footer-box{
+    border-bottom: solid rgb(112, 110, 110) 1px;
+    padding-bottom: 4em;
+    font-family: url(dinpro_condensedlight;
+}
+
 }
